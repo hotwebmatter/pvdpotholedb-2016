@@ -29,13 +29,13 @@
     {
         // doesn't cross the antimeridian
         // $rows = CS50::query("SELECT * FROM markers WHERE ? <= latitude AND latitude <= ? AND (? <= longitude AND longitude <= ?) GROUP BY city, street ORDER BY RAND() LIMIT 10", $sw_lat, $ne_lat, $sw_lng, $ne_lng);
-        $rows = CS50::query("SELECT * FROM markers WHERE ? <= latitude AND latitude <= ? AND (? <= longitude AND longitude <= ?) GROUP BY city, street ORDER BY RAND()", $sw_lat, $ne_lat, $sw_lng, $ne_lng);
+        $rows = CS50::query("SELECT * FROM markers WHERE ? <= latitude AND latitude <= ? AND (? <= longitude AND longitude <= ?) GROUP BY city, street ORDER BY pubMillis DESC", $sw_lat, $ne_lat, $sw_lng, $ne_lng);
     }
     else
     {
         // crosses the antimeridian
         // $rows = CS50::query("SELECT * FROM markers WHERE ? <= latitude AND latitude <= ? AND (? <= longitude OR longitude <= ?) GROUP_BY city, street ORDER BY RAND() LIMIT 10", $sw_lat, $ne_lat, $sw_lng, $ne_lng);
-        $rows = CS50::query("SELECT * FROM markers WHERE ? <= latitude AND latitude <= ? AND (? <= longitude OR longitude <= ?) GROUP_BY city, street ORDER BY RAND()", $sw_lat, $ne_lat, $sw_lng, $ne_lng);
+        $rows = CS50::query("SELECT * FROM markers WHERE ? <= latitude AND latitude <= ? AND (? <= longitude OR longitude <= ?) GROUP_BY city, street ORDER BY pubMillis DESC", $sw_lat, $ne_lat, $sw_lng, $ne_lng);
     }
 
     // output places as JSON (pretty-printed for debugging convenience)
