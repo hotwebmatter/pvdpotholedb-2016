@@ -34,6 +34,9 @@ html, body, #map-canvas, .container-fluid
 
     /* distance from top edge of viewport */
     top: 28px;
+
+    /* hide from display until input fixed */
+    display: none;
 }
 
 /* stylize text box */
