@@ -51,16 +51,17 @@
             $result = CS50::query("INSERT IGNORE INTO `markers` ($fields) VALUES(?, ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE timesUpdated = timesUpdated + 1", $item->uuid, $item->pubMillis, $item->location->x, $item->location->y, $item->roadType, $item->street, $item->country, $item->city, $item->type, $item->subtype, $item->magvar, $item->reportDescription, $item->reportRating, $item->confidence, $item->reliability);
         }
     }
- //  if ($count === 0)
- //  {
- //      echo "No potholes found.\n";
- //  }
- //  else if ($count === 1)
- //  {
- //      echo "1 pothole found.\n";
- //  }
- //  else
- //  {
- //      echo $count . " potholes found.\n";
- //  }
+
+    if ($count === 0)
+    {
+      echo "No potholes found.\n";
+    }
+    else if ($count === 1)
+    {
+      echo "1 pothole found.\n";
+    }
+    else
+    {
+      echo $count . " potholes found.\n";
+    }
 ?>
