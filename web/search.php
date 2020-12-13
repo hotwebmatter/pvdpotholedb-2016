@@ -1,6 +1,6 @@
 <?php
 
-    require(__DIR__ . "/../includes/config.php");
+    require(__DIR__ . "/includes/config.php");
 
     // numerically indexed array of places
     $places = [];

@@ -1,6 +1,6 @@
 <?php
 
-    require(__DIR__ . "/../../cs50/bin/config.php");
+    require(__DIR__ . "/../cs50/bin/config.php");
 
     // ensure proper usage
     if (!isset($_GET["sw"], $_GET["ne"]))
