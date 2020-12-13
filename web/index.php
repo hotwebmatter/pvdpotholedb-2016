@@ -1,7 +1,7 @@
 
 <?php
 
-    require(__DIR__ . "/../../cs50/bin/config.php");
+    require(__DIR__ . "/../cs50/bin/config.php");
 
         $total = CS50::query("SELECT COUNT(*) FROM markers");
 //    print_r($total);
