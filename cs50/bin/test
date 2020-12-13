@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(date) >> /home/webothmatter/cs50/bin/timestamps.txt

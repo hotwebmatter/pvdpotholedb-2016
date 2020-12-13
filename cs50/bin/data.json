@@ -1,0 +1,401 @@
+{
+  "alerts": [
+    {
+      "country": "US",
+      "magvar": 180,
+      "subtype": "",
+      "reportRating": 0,
+      "confidence": 0,
+      "reliability": 6,
+      "reportDescription": "Lane closed: Construction on Elmwood Ave SB at Roger Williams Park. Drive with caution.",
+      "location": {
+        "x": -71.42092935797,
+        "y": 41.788576216331
+      },
+      "type": "WEATHERHAZARD",
+      "uuid": "6849cdd0-a041-3979-8a45-63a5e80c8b7e",
+      "pubMillis": 1470034956000
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 1,
+      "reliability": 9,
+      "type": "ROAD_CLOSED",
+      "uuid": "b62fa3d4-6056-3add-a5d7-43f7fde4eaa8",
+      "magvar": 0,
+      "subtype": "ROAD_CLOSED_EVENT",
+      "street": "Dean St",
+      "reportDescription": "Bridge Replacement",
+      "location": {
+        "x": -71.426509,
+        "y": 41.828834
+      },
+      "pubMillis": 1467478414127
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 3,
+      "reliability": 10,
+      "type": "ROAD_CLOSED",
+      "uuid": "1d8f8d11-ad89-3d64-8f0d-1e7fb671cc3e",
+      "magvar": 0,
+      "subtype": "ROAD_CLOSED_EVENT",
+      "street": "Dean St",
+      "reportDescription": "Bridge Replacement",
+      "location": {
+        "x": -71.42666,
+        "y": 41.82927
+      },
+      "pubMillis": 1468890854441
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 4,
+      "reliability": 10,
+      "type": "ROAD_CLOSED",
+      "uuid": "16e854d7-1248-3d25-85b2-cf5636a672b2",
+      "magvar": 0,
+      "subtype": "ROAD_CLOSED_EVENT",
+      "street": "Promenade St",
+      "reportDescription": "Detour for Pleasant Valley Pkwy Bridge",
+      "location": {
+        "x": -71.429893,
+        "y": 41.829638
+      },
+      "pubMillis": 1465901327072
+    },
+    {
+      "country": "US",
+      "magvar": 0,
+      "subtype": "ROAD_CLOSED_EVENT",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 4,
+      "reliability": 10,
+      "reportDescription": "Detour for Pleasant Valley Pkwy Bridge",
+      "location": {
+        "x": -71.423161,
+        "y": 41.829231
+      },
+      "type": "ROAD_CLOSED",
+      "uuid": "02945bc1-f1fd-385f-b133-614506bcfca4",
+      "pubMillis": 1467608587662
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 1,
+      "reliability": 9,
+      "type": "ROAD_CLOSED",
+      "uuid": "0c5ed490-ea74-335c-adc6-1e3189e4bce7",
+      "magvar": 0,
+      "subtype": "ROAD_CLOSED_EVENT",
+      "street": "Acorn St",
+      "reportDescription": "Detour for Pleasant Valley Pkwy Bridge",
+      "location": {
+        "x": -71.428548,
+        "y": 41.828426
+      },
+      "pubMillis": 1470561629113
+    },
+    {
+      "country": "US",
+      "magvar": 270,
+      "subtype": "",
+      "reportRating": 0,
+      "confidence": -2,
+      "reliability": 10,
+      "reportDescription": "Road construction. Shoulder closed: Construction on I-195 EB at I-95. Construction. Shoulder closed.",
+      "location": {
+        "x": -71.403408101907,
+        "y": 41.814665899678
+      },
+      "type": "WEATHERHAZARD",
+      "uuid": "0971b7b0-559a-3fba-8df4-665757f6785a",
+      "pubMillis": 1470034956000
+    },
+    {
+      "country": "US",
+      "magvar": 0,
+      "subtype": "",
+      "reportRating": 0,
+      "confidence": 0,
+      "reliability": 6,
+      "reportDescription": "Lane closed: Construction on RI-10 NB at I-95. Drive with caution.",
+      "location": {
+        "x": -71.424401885243,
+        "y": 41.78198763934
+      },
+      "type": "WEATHERHAZARD",
+      "uuid": "3d5c48c5-69f7-3872-816f-c9ac942cd99c",
+      "pubMillis": 1471478400000
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 1,
+      "reliability": 9,
+      "type": "WEATHERHAZARD",
+      "uuid": "b585659f-8623-3153-8092-6730ebec2917",
+      "roadType": 7,
+      "magvar": 0,
+      "subtype": "",
+      "street": "Dorrance St",
+      "reportDescription": "Lane closed: Construction on Weybosset St NB at Dorrance St. Drive with caution.",
+      "location": {
+        "x": -71.410953888369,
+        "y": 41.823063306475
+      },
+      "pubMillis": 1471320022000
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 2,
+      "confidence": 0,
+      "reliability": 5,
+      "type": "ACCIDENT",
+      "uuid": "41e8b318-a36d-37ed-bfe7-b5ffae49e6be",
+      "roadType": 6,
+      "magvar": 341,
+      "subtype": "",
+      "street": "Allens Ave",
+      "location": {
+        "x": -71.399962,
+        "y": 41.79976
+      },
+      "pubMillis": 1471485214942
+    },
+    {
+      "country": "US",
+      "roadType": 6,
+      "magvar": 334,
+      "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+      "city": "Providence, RI",
+      "reportRating": 3,
+      "confidence": 0,
+      "reliability": 5,
+      "location": {
+        "x": -71.412233,
+        "y": 41.83618
+      },
+      "type": "WEATHERHAZARD",
+      "uuid": "0603ad34-b6fc-3a99-8a56-6e29f0874a58",
+      "pubMillis": 1471484014115
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 1,
+      "confidence": 0,
+      "reliability": 5,
+      "type": "WEATHERHAZARD",
+      "uuid": "f2ace87a-af93-304c-9ec2-6bbc42645d70",
+      "roadType": 3,
+      "magvar": 257,
+      "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+      "street": "US-6 W",
+      "location": {
+        "x": -71.465542,
+        "y": 41.822899
+      },
+      "pubMillis": 1471484641093
+    },
+    {
+      "country": "US",
+      "city": "Cranston, RI",
+      "reportRating": 0,
+      "confidence": 5,
+      "reliability": 10,
+      "type": "WEATHERHAZARD",
+      "uuid": "ef80043f-a1ef-3cfe-9f7e-4090cf4d86cd",
+      "roadType": 3,
+      "magvar": 18,
+      "subtype": "",
+      "street": "I-95 N",
+      "reportDescription": "Right lane closed: Construction on I-95 NB at Exit 16. Right lane closed. Expect delays.",
+      "location": {
+        "x": -71.424207,
+        "y": 41.781826
+      },
+      "pubMillis": 1471406422000
+    },
+    {
+      "country": "US",
+      "city": "Cranston, RI",
+      "reportRating": 0,
+      "confidence": 5,
+      "reliability": 10,
+      "type": "WEATHERHAZARD",
+      "uuid": "69ed3616-5d01-323a-8084-3f2fe7eb77c7",
+      "roadType": 3,
+      "magvar": 0,
+      "subtype": "",
+      "street": "I-95 N",
+      "reportDescription": "Lane closed: Construction on I-95 NB at Park Ave. Drive with caution.",
+      "location": {
+        "x": -71.426091406504,
+        "y": 41.777021913536
+      },
+      "pubMillis": 1471478400000
+    },
+    {
+      "country": "US",
+      "city": "Cranston, RI",
+      "reportRating": 0,
+      "confidence": 0,
+      "reliability": 6,
+      "type": "WEATHERHAZARD",
+      "uuid": "d5993e4f-4d9d-3832-bd26-0b607f87b6a0",
+      "roadType": 3,
+      "magvar": 180,
+      "subtype": "",
+      "street": "I-95 S",
+      "reportDescription": "Lane closed: Construction on RI-10 SB at I-95. Drive with caution.",
+      "location": {
+        "x": -71.424448931297,
+        "y": 41.781885119371
+      },
+      "pubMillis": 1471478400000
+    },
+    {
+      "country": "US",
+      "city": "Cranston, RI",
+      "reportRating": 0,
+      "confidence": 0,
+      "reliability": 9,
+      "type": "WEATHERHAZARD",
+      "uuid": "6cd5cd6e-a744-32be-ae09-d723f47bbca8",
+      "roadType": 3,
+      "magvar": 180,
+      "subtype": "",
+      "street": "I-95 S",
+      "reportDescription": "Lane closed: Construction on I-95 SB at Exit 16. Drive with caution.",
+      "location": {
+        "x": -71.422189437742,
+        "y": 41.785605910026
+      },
+      "pubMillis": 1471478400000
+    },
+    {
+      "country": "US",
+      "roadType": 3,
+      "magvar": 192,
+      "subtype": "HAZARD_ON_ROAD_POT_HOLE",
+      "street": "US-6 W",
+      "reportRating": 2,
+      "confidence": 1,
+      "reliability": 8,
+      "location": {
+        "x": -71.439977,
+        "y": 41.814739
+      },
+      "type": "WEATHERHAZARD",
+      "uuid": "908d9473-f553-34e9-b1b0-a1085b837a3e",
+      "pubMillis": 1471475761324
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 2,
+      "confidence": 4,
+      "reliability": 10,
+      "type": "WEATHERHAZARD",
+      "uuid": "f95ec491-d618-371e-8421-bcef50bcdd00",
+      "roadType": 3,
+      "magvar": 185,
+      "subtype": "HAZARD_ON_ROAD_POT_HOLE",
+      "street": "I-95 S",
+      "location": {
+        "x": -71.402786,
+        "y": 41.799195
+      },
+      "pubMillis": 1471476243505
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 0,
+      "reliability": 7,
+      "type": "WEATHERHAZARD",
+      "uuid": "8645c1ac-18d9-39d6-9e81-fa4c7ed583ab",
+      "roadType": 3,
+      "magvar": 90,
+      "subtype": "",
+      "street": "I-195 W",
+      "reportDescription": "Lane closed: Construction on I-195 WB at I-95. Drive with caution.",
+      "location": {
+        "x": -71.405898486595,
+        "y": 41.814106197162
+      },
+      "pubMillis": 1471438800000
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 0,
+      "confidence": 5,
+      "reliability": 10,
+      "type": "WEATHERHAZARD",
+      "uuid": "abfad3cd-5712-3269-b05a-c0f9be0dd4ff",
+      "roadType": 3,
+      "magvar": 90,
+      "subtype": "",
+      "street": "I-195 W",
+      "reportDescription": "Road construction. Shoulder closed: Construction on I-195 WB at S Main St. Construction. Shoulder closed.",
+      "location": {
+        "x": -71.398859247477,
+        "y": 41.817241968624
+      },
+      "pubMillis": 1470034920000
+    },
+    {
+      "country": "US",
+      "city": "Providence, RI",
+      "reportRating": 4,
+      "confidence": 0,
+      "reliability": 5,
+      "type": "WEATHERHAZARD",
+      "uuid": "a48a84f3-e6a5-3ace-9516-e15558e4e6db",
+      "roadType": 3,
+      "magvar": 296,
+      "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+      "street": "I-95 N",
+      "location": {
+        "x": -71.411782,
+        "y": 41.815169
+      },
+      "pubMillis": 1471483966422
+    },
+    {
+      "country": "US",
+      "roadType": 3,
+      "magvar": 74,
+      "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+      "street": "US-6 E",
+      "reportRating": 2,
+      "confidence": 1,
+      "reliability": 8,
+      "location": {
+        "x": -71.428069,
+        "y": 41.825507
+      },
+      "type": "WEATHERHAZARD",
+      "uuid": "5fc85351-30ed-34d8-a32d-e22e140528c7",
+      "pubMillis": 1471482492241
+    }
+  ],
+  "endTimeMillis": 1471485180000,
+  "startTimeMillis": 1471485120000,
+  "startTime": "2016-08-18 01:52:00:000",
+  "endTime": "2016-08-18 01:53:00:000"
+}
