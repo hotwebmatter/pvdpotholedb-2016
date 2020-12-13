@@ -1,4 +1,4 @@
-#!/usr/local/bin/php54
+#!/usr/bin/php
 <?php
 
     // TODO: import potholes from Waze GeoJSON feed into mySQL db
